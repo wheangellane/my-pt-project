@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5e6ff, #e6d0ff, #e0b0ff); 
+            color: #333;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            box-sizing: border-box;
+        }
+
+        /* Navigation */
+        .navbar {
+            width: 100%;
+            background-color: #d1b3ff;
+            padding: 0.8rem 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+            box-sizing: border-box;
+        }
+
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 100;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        .bottom-nav .nav-links {
+            justify-content: space-around;
+        }
+
+        .nav-links li a {
+            color: #4b0082;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 0.6rem 1.4rem;
+            border-radius: 6px;
+            background-color: #e0ccff;
+            border: 1px solid #d1b3ff;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links li a:hover {
+            background-color: #c9a3ff;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Main content sections */
+        .contact-container,
+        .info-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 3rem auto;
+            max-width: 700px;
+            padding: 1.5rem;
+            background-color: #f5e6ff;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0b0ff;
+        }
+
+        .contact-container h1,
+        .info-container h1 {
+            margin: 0 0 1rem 0;
+            color: #4b0082;
+            font-size: 2rem;
+        }
+
+        .contact-container p,
+        .info-container p {
+            color: #333;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 0.5rem 0;
+        }
+
+        .contact-container ul,
+        .info-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 0 0;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        .contact-container li,
+        .info-container li {
+            margin: 0.6rem 0;
+            padding: 0.4rem 0.8rem;
+            background-color: #e6d0ff;
+            border-radius: 6px;
+            border-left: 3px solid #b191d6;
+            text-align: left;
+        }
+
+        /* Media query */
+        @media (max-width: 600px) {
+            .nav-links {
+                gap: 0.8rem;
+                flex-wrap: wrap;
+            }
+            .nav-links li a {
+                padding: 0.5rem 0.7rem;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar top-nav">
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About .html">About </a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Program.html">Program</a></li>
+        </ul>
+    </nav>
+
+    <h1 style="text-align: center; color: #4b0082; font-size: 2.5rem; margin: 2rem 0;">Sisters of Mary School Contact Information</h1>
+
+   <div class="contact-container">
+        <div class="section-img-wrapper">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (15).jpg" alt="contact photo">
+             <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (16).jpg" alt="contact photo">    
+        </div>
+    <div class="contact-container">
+        <h1>Girlstown – Talisay, Cebu</h1>
+        <ul>
+            <li><strong>Address:</strong> 769 Jose Rizal St., Poblacion, Talisay City 6045, Cebu, Philippines</li>
+            <li><strong>Phone:</strong> (032) 272-3828</li>
+            <li><strong>Hours:</strong> Mon–Fri: 7:30 AM – 5:30 PM; Sat: 7:30 AM – 5:00 PM</li>
+        </ul>
+    </div>
+
+    <div class="contact-container">
+        <div class="section-img-wrapper">
+            <img src="\\smbi-server\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (17).jpg" alt="contact photo">
+             <img src="\\smbi-server\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download(14).png" alt="contact photo">    
+        </div>
+    <div class="info-container">
+        <h1>Boystown – Minglanilla, Cebu</h1>
+        <ul>
+            <li><strong>Address:</strong> Tungkop Rd, Minglanilla, Cebu City 6046, Cebu, Philippines</li>
+            <li><strong>Phone:</strong> (032) 272-8638</li>
+        </ul>
+    </div>
+ <div class="contact-container">
+        <div class="section-img-wrapper">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (20).jpg" alt="contact photo">
+             <img src="\\smbi-server\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download(21).jpg" alt="contact photo">    
+        </div>
+    <div class="contact-container">
+        <h1>Silang Campus – Cavite</h1>
+        <ul>
+            <li><strong>Address:</strong> Brgy. Biga II, Silang, Cavite 4118, Philippines</li>
+            <li><strong>Phone:</strong> (046) 414-0575 or (046) 865-2546</li>
+            <li><strong>Fax:</strong> (046) 414-2575</li>
+            <li><strong>Email:</strong> som@psalms.com.ph</li>
+        </ul>
+    </div>
+
+  <div class="contact-container">
+        <div class="section-img-wrapper">
+            <img src="\\smbi-server\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (18).jpg" alt="contact photo">
+             <img src="\\smbi-server\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download(19).png" alt="contact photo">    
+        </div>
+    <div class="info-container">
+        <h1>General Contact</h1>
+        <ul>
+            <li><strong>Toll-free (World Villages):</strong> 1-800-662-6316</li>
+            <li><strong>Email (World Villages):</strong> info@worldvillages.org</li>
+        </ul>
+        <p style="margin-top: 1rem;">For admission-related inquiries or document requests (transcripts, baptismal certificates), you can also contact them through their official Facebook page: **The Sisters of Mary Schools-Philippines**.</p>
+    </div>
+
+    
+    <nav class="navbar bottom-nav">
+        <ul class="nav-links">
+            <li><a href="home.html">‹ Previous (HOME)</a></li>
+            <li><a href="program.html">Next (Program)</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

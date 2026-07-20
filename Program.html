@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5e6ff, #e6d0ff, #e0b0ff); 
+            color: #333;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            box-sizing: border-box;
+        }
+
+        /* Navigation */
+        .navbar {
+            width: 100%;
+            background-color: #d1b3ff;
+            padding: 0.8rem 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+            box-sizing: border-box;
+        }
+
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 100;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        .bottom-nav .nav-links {
+            justify-content: space-around;
+        }
+
+        .nav-links li a {
+            color: #4b0082;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 0.6rem 1.4rem;
+            border-radius: 6px;
+            background-color: #e0ccff;
+            border: 1px solid #d1b3ff;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links li a:hover {
+            background-color: #c9a3ff;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Hero section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 3rem 2rem;
+            background-color: #f0d0ff;
+            margin: 2rem auto 3rem auto;
+            max-width: 800px;
+            border-radius: 14px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+            border: 1px solid #e0b0ff;
+            box-sizing: border-box;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: #552583;
+            font-style: italic;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Main content sections */
+        .founder-container,
+        .goal-container,
+        .mission-container,
+        .philosophy-container,
+        .locations-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 3rem auto;
+            max-width: 700px;
+            padding: 1.5rem;
+            background-color: #f5e6ff;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0b0ff;
+            box-sizing: border-box;
+        }
+
+        .founder-container h1,
+        .goal-container h1,
+        .mission-container h1,
+        .philosophy-container h1,
+        .locations-container h1 {
+            margin: 0 0 1rem 0;
+            color: #4b0082;
+            font-size: 2rem;
+        }
+
+        .founder-container p,
+        .goal-container p,
+        .mission-container p,
+        .philosophy-container p,
+        .locations-container p {
+            color: #333;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 0.5rem 0;
+        }
+
+        .founder-container ul,
+        .mission-container ul,
+        .philosophy-container ul,
+        .locations-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 0 0;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #333;
+            width: 100%;
+        }
+
+        .founder-container li,
+        .mission-container li,
+        .philosophy-container li,
+        .locations-container li {
+            margin: 0.6rem 0;
+            padding: 0.4rem 0.8rem;
+            background-color: #e6d0ff;
+            border-radius: 6px;
+            border-left: 3px solid #b191d6;
+            text-align: left;
+        }
+
+        /* Media query */
+        @media (max-width: 600px) {
+            .nav-links {
+                gap: 0.8rem;
+                flex-wrap: wrap;
+            }
+            .nav-links li a {
+                padding: 0.5rem 0.7rem;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar top-nav">
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About me.html">About Me</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Program.html">Program</a></li>
+        </ul>
+    </nav>
+
+
+<div class="philosophy-container">
+        <div class="section-img-wrapper">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download(26).jpg" alt="philosopy photo">
+             <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download(28).png"  alt="philosopy photo">
+             
+        </div>
+    <div class="founder-container">
+        <h1>Core Mission & Philosophy</h1>
+        <p>The program was founded by Venerable Father Aloysius "Fr. Al" Schwartz (an American missionary priest) on August 15, 1964, in South Korea, and later expanded heavily to the Philippines in 1985.</p>
+        <p>Managed by the Catholic congregation of the Sisters of Mary (inspired by the Virgin of the Poor), the program operates under four basic pillars for holistic child development: Study, Play, Work, and Pray.</p>
+    </div>
+<div class="philosophy-container">
+        <div class="section-img-wrapper">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download(29).jpg" alt="philosopy photo">
+             <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download(30).jpg"  alt="philosopy photo">
+             
+        </div>
+    <div class="goal-container">
+        <h1>What the Program Provides</h1>
+        <p>For the children accepted into the program, everything is 100% free. The charity assumes full responsibility for the kids, providing:</p>
+        <ul>
+            <li><strong>Full Board and Lodging:</strong> Safe, clean dormitories within massive, secure campuses.</li>
+            <li><strong>Basic Needs:</strong> Nutritious meals, clothing/uniforms, shoes, and medical/dental care.</li>
+            <li><strong>Dual Curriculum:</strong> Students learn standard academic high school subjects alongside rigorous technical-vocational training.</li>
+        </ul>
+    </div>
+<div class="philosophy-container">
+        <div class="section-img-wrapper">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (31).jpg" alt="philosopy photo">
+             <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (32).jpg"  alt="philosopy photo">
+             
+        </div>
+    <div class="philosophy-container">
+        <h1>Academic & Technical-Vocational Training (TVET)</h1>
+        <p>The program’s primary goal is to break the cycle of poverty by making students employable by the age of 18. They graduate not just with a high school diploma, but with official industry-standard certifications (such as TESDA certifications in the Philippines).</p>
+        <p>Depending on whether they attend Boystown or Girlstown, students specialize in highly marketable fields:</p>
+        
+        <div style="text-align: left; width: 100%; margin-top: 1rem;">
+            <strong style="color: #4b0082;">Girlstown Programs</strong>
+            <ul>
+                <div class="section-img-wrapper">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (43).jpg" alt="philosopy photo">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (37).jpg" alt="philosopy photo">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (40).jpg" alt="philosopy photo">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\images (45).jpg" alt="philosopy photo">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\images (1).jpg" alt="philosopy photo">
+        </div>
+                <li>Bookkeeping & Accounting</li>
+                <p>The BOOKKEEPING NC III Qualification consists of competencies that a person must achieve to enable him/her to journalize transactions, post transactions, prepare trial balance, prepare financial reports and review internal control system.</p>
+                <li>Computer Systems Servicing & Programming</li>
+                <p>The PROGRAMMING(.NET TECHNOLOGY) NC III Qualification consists of competencies that a person must achieve to develop or write program codes using a personal computer or workstation as part of a systems development team. Specifically, it includes specialized competencies on .NET technology programming language, such as: 1.) programming in HTML5 with JavaScript & CSS3 and 2.) developing ASP.NET MVC 5 web applications.</p>
+                <p>The COMPUTER SYSTEMS SERVICING NC II Qualification consists of competencies that must possess to enable to install and configure computers systems, set-up computer networks and servers and to maintain and repair computer systems and networks.</p>
+                <li>Contact Center Services (BPO)</li>
+                <p> The Contact Center Services (CCS) program—often referred to under the Technical-Vocational-Livelihood (TVL) track or Information and Communications Technology (ICT) strand—is a highly sought-after course at the Sisters of Mary Schools (such as the campuses in Cavite and Cebu).</p>
+                <li>Dressmaking & Technical Drafting</li>
+                <p>For Dressmaking (under the Home Economics strand) and Technical Drafting (under the Industrial Arts / ICT strand) at the Sisters of Mary Schools, the core admission requirements (low-income family status, entrance exam, and living in the residential facility) still apply.</p>
+                <li>Bread and Pastry Production</li>
+                <p>The BREAD AND PASTRY PRODUCTION NC II Qualification consists of competencies that person must achieve to be able to clean equipment , tools and utensils and prepare, portion and plate pastries, breads and other dessert items to guests in hotels, motels, restaurants, clubs, canteens, resorts and luxury lines/cruises and other related operations.</p>
+            </ul>
+        </div>
+
+        <div style="text-align: left; width: 100%; margin-top: 1.5rem;">
+            <strong style="color: #4b0082;">Boystown Programs</strong>
+                  <div class="section-img-wrapper">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (42).jpg" alt="philosopy photo">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (49).jpg" alt="philosopy photo">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (46).jpg" alt="philosopy photo">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (47).jpg" alt="philosopy photo">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (50).jpg" alt="philosopy photo">
+            
+        </div>
+            <ul>
+                <li>Mechanical & Automotive Technology</li>
+                <p>The DRIVING NC II Qualification consists of competencies that a person must achieve to operate light motor vehicles classified under LTO Restriction code 1 and 2; transport passengers and loads over specified routes to local or district location and collect fare duly authorized by the relevant government agency; comply with local traffic rules and regulations and perform minor vehicle repairs and other minor servicing.</p>
+                <li>Electrical & Mechatronics Servicing</li>
+                <p>The Mechatronics Servicing NC II Qualification consists of competencies that must be possessed to enable a person to install, configure and test mechatronics and automation devices/system.</p>
+                <li>Shielded Metal Arc Welding (SMAW)</li>
+                <p>Shielded Metal Arc Welding (SMAW), also commonly known as stick welding, is a manual arc welding process that uses a consumable electrode covered with a flux to lay the weld. It is one of the most widely used welding processes in the world, especially in construction, shipbuilding, and maintenance.</p>
+                <li>Technical Drafting</li>
+                <p>The Technical Drafting NC II Qualification consists of competencies that a person must achieve to enable him / her to draft architectural layout and detail (structural, electrical/electronic, sanitary/plumbing, and mechanical) drawings using both CAD system and manual drafting methods.</p>
+                <li>Culinary Arts & Baking</li>
+                <p>The BREAD AND PASTRY PRODUCTION NC II Qualification consists of competencies that person must achieve to be able to clean equipment , tools and utensils and prepare, portion and plate pastries, breads and other dessert items to guests in hotels, motels, restaurants, clubs, canteens, resorts and luxury lines/cruises and other related operations.</p>
+            </ul>
+        </div>
+    </div>
+<div class="philosophy-container">
+        <div class="section-img-wrapper">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\images.jpg" alt="philosopy photo">
+             <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\dwonload(33).jpg"  alt="philosopy photo">
+             
+        </div>
+    <div class="mission-container">
+        <h1>How Recruitment Works</h1>
+        <p>The Sisters do not wait for applicants; they actively seek out those in absolute need.</p>
+        <ul>
+            <li><strong>Scouting:</strong> The nuns travel to the most remote, impoverished, or disaster-stricken villages, working with local parishes to find children whose families cannot afford even basic necessities.</li>
+            <li><strong>Eligibility:</strong> To qualify, the child’s family must be classified as living below the poverty line.</li>
+            <li><strong>Admissions:</strong> Children take basic entrance exams (usually in English and Math) and undergo interviews. The program accepts students regardless of race, gender, or religion.</li>
+        </ul>
+    </div>
+<div class="philosophy-container">
+        <div class="section-img-wrapper">
+            <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\dwonload(33).jpg" alt="philosopy photo">
+             <img src="\\SMBI-SERVER\Computer Programming FILES 2026\CP - Ms. Marquez\CP1-B\25_VICENTE\Performance task no.01(WEBSITE)\index.html\download (34).jpg"  alt="philosopy photo">
+             
+        </div>
+    <div class="locations-container">
+        <h1>Girlstown and Boystown Locations</h1>
+        <p>While headquartered in Silang, Cavite, Philippines, the Sisters of Mary operate massive campuses worldwide, caring for over 20,000 students at any given time.</p>
+        <ul>
+            <li>Girlstown Biga, Barangay Biga, Silang, Cavite</li>
+            <li>Boystown Adlas, Barangay Adlas, Silang, Cavite</li>
+            <li>Girlstown Talisay, J.P. Rizal Street, Talisay City, Cebu</li>
+            <li>Boystown Minglanilla, Tungkop, Minglanilla, Cebu</li>
+        </ul>
+        <p>Outside the Philippines, the Sisters also run Girlstown and Boystown programs in Mexico (for example, a Girls' Town in Chalco and a Boys' Town in Guadalajara) and similar communities in parts of Africa and Asia, following the same model.</p>
+        <p>To date, the program has successfully graduated over 150,000 young adults globally, many of whom go on to work for major international corporations, support their families out of poverty, and give back to the program as alumni.</p>
+    </div>
+
+    <nav class="navbar bottom-nav">
+        <ul class="nav-links">
+            <li><a href="home.html">‹ Previous (HOME)</a></li>
+            <li><a href="contact.html">Next (Contact) ›</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
